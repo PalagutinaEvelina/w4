@@ -10,7 +10,7 @@ int main() {
     cin >> number;
 
     while (number > 0) {
-        number /= 10;      // "отрезаем" последнюю цифру
+        number /= 10;      
         count++;
     }
 
